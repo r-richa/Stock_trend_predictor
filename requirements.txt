@@ -2,6 +2,5 @@ scikit-learn
 matplotlib
 yfinance 
 tensorflow==2.16.2
-keras
 
 
