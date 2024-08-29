@@ -82,6 +82,15 @@ scale_factor = 1/scaler[0]
 y_predicted = y_predicted * scale_factor
 y_test = y_test* scale_factor
 
+# mse = mean_squared_error(y_test, y_predicted)
+# r2 = r2_score(y_test, y_predicted)
+
+# # Display metrics in Streamlit
+# st.subheader('Model Performance Metrics')
+# st.write(f'Mean Squared Error (MSE): {mse:.2f}')
+# st.write(f'R² Score: {r2:.2f}')
+
+
 #Final graph
 st.subheader('Predictions vs Origianal')
 fig2 = plt.figure(figsize = (12,6))
